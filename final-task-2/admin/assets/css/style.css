@@ -1,0 +1,319 @@
+/* Default CSS */
+@import url("https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Anton&family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap");
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Plus Jakarta Sans;
+}
+p{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    color: #D6D3D1;
+    line-height: 28px;
+}
+h1{
+    font-family: Anton;
+    font-size: 50px;
+    font-weight: 400;
+    line-height: 120%;
+    color: #FFFFFF;
+}
+h2{
+    font-family: Anton;
+    font-size: 40px;
+    font-weight: 400;
+    line-height: auto;
+    color: #FFFFFF;
+}
+h3{
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 600;
+    color: #D6D3D1;
+    line-height: 28px;
+}
+h4{
+    font-family: Anton;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 34px;
+    color: #FFFFFF;
+}
+h5{
+    font-family: Plus Jakarta Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: auto;
+    color: #FFFFFF;
+}
+h6{
+    font-family: Plus Jakarta Sans;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: auto;
+    color: #FFFFFF;
+}
+ul{
+    list-style-type: none;
+}
+ul li{
+    color: #A8A29E;
+    font-family: Plus Jakarta Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: auto;
+    padding-bottom: 24px;
+}
+a{
+    text-decoration: none;
+    cursor: pointer;
+    color: #A8A29E;
+    transition: all 0.5s ease;
+}
+a:hover{
+    color: #FFFFFF;
+}
+.row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12, .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8, .col-sm-9 {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+@media (min-width: 576px) {
+    .col-sm-1 {
+        -ms-flex: 0 0 8.333333%;
+        flex: 0 0 8.333333%;
+        max-width: 8.333333%;
+    }
+
+    .col-sm-2 {
+        -ms-flex: 0 0 16.666667%;
+        flex: 0 0 16.666667%;
+        max-width: 16.666667%;
+    }
+
+    .col-sm-3 {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+
+    .col-sm-4 {
+        -ms-flex: 0 0 33.333333%;
+        flex: 0 0 33.333333%;
+        max-width: 33.333333%;
+    }
+
+    .col-sm-5 {
+        -ms-flex: 0 0 41.666667%;
+        flex: 0 0 41.666667%;
+        max-width: 41.666667%;
+    }
+
+    .col-sm-6 {
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+
+    .col-sm-7 {
+        -ms-flex: 0 0 58.333333%;
+        flex: 0 0 58.333333%;
+        max-width: 58.333333%;
+    }
+
+    .col-sm-8 {
+        -ms-flex: 0 0 66.666667%;
+        flex: 0 0 66.666667%;
+        max-width: 66.666667%;
+    }
+
+    .col-sm-9 {
+        -ms-flex: 0 0 75%;
+        flex: 0 0 75%;
+        max-width: 75%;
+    }
+
+    .col-sm-10 {
+        -ms-flex: 0 0 83.333333%;
+        flex: 0 0 83.333333%;
+        max-width: 83.333333%;
+    }
+
+    .col-sm-11 {
+        -ms-flex: 0 0 91.666667%;
+        flex: 0 0 91.666667%;
+        max-width: 91.666667%;
+    }
+
+    .col-sm-12 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+/* End of default CSS */
+.section{
+    background-color: #191919;
+    max-width: 100%;
+}
+.container{
+    max-width: 1594px;
+    margin: auto;
+}
+
+/* Primary button */
+.primary-button{
+    display: flex;
+}
+.primary-button a{
+    background-color: #DC2626;
+    border-radius: 28px;
+    padding: 17px 42px 17px 42px;
+    transition: all 1s ease; 
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+.primary-button a:hover {
+    background-color: #FFFFFF;
+    color: #DC2626;
+}
+.primary-button a svg{
+    margin-left: 10px;
+}
+.primary-button a svg path{
+    transition: all 1s ease;
+}
+.primary-button a:hover svg path{
+    stroke: #DC2626;
+}
+/* End of primary button */
+
+/* Menu section */
+.menu-section{
+    background-color: #191919;
+    text-align: center;
+    padding-right: 15px;
+    border-right: 1px solid #686868;
+}
+.menu-section img{
+    padding-top: 32px ;
+    padding-bottom: 43px;
+}
+.selected-menu{
+    list-style-type: square;
+}
+.selected-menu::marker{
+    color: #DC2626;
+}
+.menu-container{
+    max-width: 114px;
+    margin: auto;
+}
+/* End of menu section*/
+
+/* Main section */
+.main-section{
+    background-color: #191919 ;
+    overflow: hidden;
+}
+
+/* Contact Bar */
+.contact-bar{
+    justify-content: right;
+    padding-top: 24px;
+}
+.phone-no{
+    display: flex;
+    align-items: center;
+    padding-right: 24px;
+}
+.phone-no img{
+    padding-right: 10px;
+}
+
+/* Banner Section */
+.banner-section{
+    padding-top: 50px;
+}
+.banner-content{
+    max-width: 60%;
+    padding-left: 50px;
+}
+.banner-content p{
+    padding-top: 24px;
+    padding-bottom: 50px;
+}
+.banner-image{
+    max-width: 40%;
+}
+.banner-image img{
+    max-width: 100%;
+}
+/* End of banner section */
+
+/* Display Section */
+.display-section{
+    padding-left: 50px;
+}
+.display-container{
+    padding-top: 50px;
+}
+.display-content{
+    border: 1px solid #78716C;
+    border-radius: 16px;
+    padding: 12px;
+}
+.display-image img{
+    max-width: 100%;
+}
+.display-content p{
+    max-width: 90%;
+}
+/* End of display section */
+
+/* Footer */
+.footer-section{
+    padding-top: 50px;
+    justify-content: space-between;
+}
+.footer-block-1 p{
+    padding-top: 29px;
+    padding-bottom: 17px;
+    line-height: 170%;
+}
+.social-icons{
+    padding-top: 14px;
+    justify-content: space-between;
+}
+.social-icons a{
+    transition: all 1s ease;
+}
+.social-icons a:hover{
+    opacity: 0.5;
+}
+.footer-link-block h6{
+    padding-bottom: 24px;
+}
+.tc{
+    color: #A8A29E;
+    padding: 60px 0;
+    margin: auto;
+}
+/* End of footer section */
